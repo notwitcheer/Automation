@@ -1,0 +1,7 @@
+# Combine PDF files.
+
+from PyPDF2 import PdfFileWriter, PdfFileReader
+
+output_source = PdfFileWriter()
+
+open('QuickStart-FicheRecap.pdf', 'r')
